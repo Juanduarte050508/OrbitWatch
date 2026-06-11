@@ -1,0 +1,12 @@
+:root {
+    --destaque: #7c3aed;
+    --brilho: rgba(124, 58, 237, 0.3);
+    --fundo-principal: #f5f3ff;
+    --fundo-secundario: #ffffff;
+    --fundo-header: rgba(245, 243, 255, 0.97);
+    --borda: rgba(124, 58, 237, 0.2);
+    --texto-principal: #1e1b4b;
+    --texto-secundario: #5b21b6;
+    --texto-header: #3b0764;
+    --card: #f7e9ff;
+}

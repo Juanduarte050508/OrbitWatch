@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/standardStructure.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link id='mode' rel="stylesheet" href="css/galaxyStyles.css">
+    <title>OrbiWatch</title>
+</head>
+<body>
+
+    <header>
+        <h1>OrbiWatch</h1>
+        <nav>
+            <ul>
+                <li><a href="#slideshow">SlideShow</a></li>
+                <li><a href="#problema">Problema</a></li>
+                <li><a href="#tecnologia">Tecnologia</a></li>
+                <li><a href="#objetivos">Objetivos</a></li>
+                <li><a href="#publico-alvo">Público-alvo</a></li>
+                <li><a href="#beneficios">Benefícios</a></li>
+                <li><a href="#aplicacao">Aplicação</a></li>
+                <li><a href="#quizSection">Quiz</a></li>
+            </ul>
+        </nav>
+        <img id='light-dark' src="images/light-dark/galaxyMode.svg" alt="galaxyMode">
+    </header>
+
+    <main>
+    </div>
+        <div class="sections">
+            <section id="slideshow" class="slideshow">
+
+                <div class="slide">
+                    <img src="/images/slideshow/slideshow1.jpg" alt="img1">
+                </div>
+
+                <div class="controles">
+                    <button class="botao" id="anterior">← Anterior</button>
+                    <span id="pontos"></span>
+                    <span id="contador">1 / 3</span>
+                    <button class="botao" id="proximo">Próximo →</button>
+                </div>
+
+            </section>
+            <section id="problema">
+                <h2>Problema</h2>
+                <div class="section-line"></div>
+                <div class="section-body">                      
+                    <p>
+                        O lixo espacial cresce rapidamente e aumenta o risco de colisões, ameaçando satélites, comunicações, pesquisas e serviços essenciais na Terra.
+                    </p>
+                </div>
+            </section>
+            <section id="tecnologia">
+                <h2>Tecnologia</h2>
+                <div class="section-line"></div>
+                <div class="section-body">
+                    <p>
+                        Usaremos dashboard web, Python, cálculos orbitais, JavaScript, sensores simulados, LEDs, buzzer e display LCD para monitorar riscos.
+                    </p>
+                </div>
+
+            </section>
+            <section id="objetivos">
+                <h2>Objetivos</h2>
+                <div class="section-line"></div>
+                <div class="section-body">
+                    <p>
+                        Monitorar satélites e detritos, calcular distâncias e probabilidades de colisão, emitir alertas e gerar relatórios claros para operadores.
+                    </p>
+                </div>
+            </section>
+            <section id="publico-alvo">
+                <h2>Público-alvo</h2>
+                <div class="section-line"></div>
+                <div class="section-body">
+                    <p>
+                        A solução impacta operadores de satélite, empresas espaciais, pesquisadores, estudantes e equipes responsáveis por comunicações e segurança orbital.
+                    </p>
+                </div>
+            </section>
+            <section id="beneficios">
+                <h2>Benefícios</h2>
+                <div class="section-line"></div>
+                <div class="section-body">
+                    <p>
+                        O projeto ajuda a prevenir colisões, reduzir perdas, melhorar decisões operacionais e tornar o monitoramento espacial mais visual e acessível.
+                    </p>
+                </div>
+            </section>
+            <section id="aplicacao">
+                <h2>Aplicação</h2>
+                <div class="section-line"></div>
+                <div class="section-body">
+                    <p>
+                        O usuário cadastra satélites, acompanha detritos próximos, recebe alertas de risco e consulta históricos pelo painel interativo do sistema.
+                    </p>
+                </div>
+            </section>
+            <section id="quizSection">
+                <form id="quiz">
+                    <h2>TESTE SEU CONHECIMENTO SOBRE O ESPAÇO:</h2>
+                    <br>
+                    <fieldset data-resposta="a">
+                        <legend>Qual o formato da Terra?</legend>
+                        <div>
+                            <label>
+                                <input type="radio" name="q1" value="a">
+                                Geoide
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                <input type="radio" name="q1" value="b">
+                            Esfera</label>
+                        </div>
+                    </fieldset>
+                    <br>
+                    <fieldset data-resposta="a">
+                        <legend>Qual a velocidade da luz?</legend>
+                        <div>
+                            <label>
+                                <input type="radio" name="q2" value="a">
+                                300.000.000 m/s
+                                <span class="customOption"></span>
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                <input type="radio" name="q2" value="b">
+                                300.000 m/s
+                            </label>
+                        </div>
+                    </fieldset>
+                    <br>
+                    <fieldset data-resposta="b">
+                        <legend>Qual a posição da Terra no sistema solar?</legend>
+                        <div>
+                            <label>
+                                <input type="radio" name="q3" value="a">
+                                Quinta
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                <input type="radio" name="q3" value="b">
+                                Terceira
+                            </label>
+                        </div>
+                    </fieldset>
+                    <br>
+                    <fieldset data-resposta="b">
+                        <legend>Qual o maior planeta do sistema solar?</legend>
+                        <div>
+                            <label>
+                                <input type="radio" name="q4" value="a">
+                                Saturno
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                <input type="radio" name="q4" value="b">
+                                Júpiter
+                            </label>
+                        </div>
+                    </fieldset>
+                    <br>
+                    <fieldset data-resposta="a">
+                        <legend>Qual a galáxia espiral mais próxima?</legend>
+                        <div>
+                            <label>
+                                <input type="radio" name="q5" value="a">
+                                Andromeda
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                <input type="radio" name="q5" value="b">
+                                Antena
+                            </label>
+                        </div>
+                    </fieldset>
+                    <br>
+
+                    <fieldset data-resposta="b">
+                        <legend>Qual o nome do primeiro ser vivo a sair da Terra?</legend>
+                        <div>
+                            <label>
+                                <input type="radio" name="q6" value="a">
+                                Dolly
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                <input type="radio" name="q6" value="b">
+                                Laika
+                            </label>
+                        </div>
+                    </fieldset>
+                    <br>
+
+                    <fieldset data-resposta="a">
+                        <legend>Como se chama uma explosão de uma estrela?</legend>
+                        <div>
+                            <label>
+                                <input type="radio" name="q7" value="a">
+                                Supernova
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                <input type="radio" name="q7" value="b">
+                                Big-Bang
+                            </label>
+                        </div>
+                    </fieldset>
+                    <br>
+
+                    <fieldset data-resposta="b">
+                        <legend>Qual a cor do Sol?</legend>
+                        <div>
+                            <label>
+                                <input type="radio" name="q8" value="a">
+                                Amarelo
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                <input type="radio" name="q8" value="b">
+                                Branco
+                            </label>
+                        </div>
+                    </fieldset>
+                    <br>
+
+                    <fieldset data-resposta="b">
+                        <legend>Qual o formato da tragetória da órbita dos planetas?</legend>
+                        <div>
+                            <label>
+                                <input type="radio" name="q9" value="a">
+                                Circunferência
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                <input type="radio" name="q9" value="b">
+                                Elipse
+                            </label>
+                        </div>
+                    </fieldset>
+                    <br>
+
+                    <fieldset data-resposta="a">
+                        <legend>Qual cor indica uma estrela mais quente?</legend>
+                        <div>
+                            <label>
+                                <input type="radio" name="q10" value="a">
+                                Azul
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                <input type="radio" name="q10" value="b">
+                                Vermelho
+                            </label>
+                        </div>
+                    </fieldset>
+                    <br>
+                    <button type="submit">
+                        <label>Enviar resultados</label>
+                    </button>
+                    
+                    <h2 id="resultado"></h2>
+                </form>
+            </section>
+        </div>
+        
+    </main>
+    <footer>
+        <p>INTEGRANTES:</p>
+
+        <ul>
+            <li>João Victor Pereira Gimenes - RM: 571662</li>
+            <li>Juan Duarte - RM: 570331</li>
+            <li>Julio Cesar da Silva Cocco - RM: 569463</li>
+            <li>Rafael Boletini de Oliveira - RM: 570219 </li>
+            <li>Victor Rossi Sales Zanandre - RM: 573844</li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
