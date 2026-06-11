@@ -9,6 +9,14 @@
 
 ---
 
+## 🎬 Apresentação do Projeto
+
+[![OrbitWatch - Apresentação](https://img.youtube.com/vi/j5XWL57Os_E/maxresdefault.jpg)](https://youtu.be/j5XWL57Os_E)
+
+🔗 **[Assistir a apresentação completa no YouTube](https://youtu.be/j5XWL57Os_E)**
+
+---
+
 ## 🌍 O Problema
 
 Existem mais de **30 mil pedaços de lixo orbital catalogados** girando ao redor da Terra a **28 mil km/h**. Parafusos, restos de foguete, satélites mortos, fragmentos de colisões antigas.
@@ -41,22 +49,20 @@ Operadoras de satélite, agências espaciais (NASA, ESA, AEB) e toda infraestrut
 
 ## 📁 Estrutura do Projeto
 
-## 📁 Estrutura do Projeto
+Cada pasta corresponde a disciplinas do curso de **Engenharia de Software — FIAP**:
 
 | Pasta | Disciplinas | Professor(a) | Conteúdo |
 |-------|-----------|--------------|----------|
-| `python/` | Computational Thinking + Problem Solving | Francisco Elanio Bezerra / Fernando Pizzo Ribeiro | Cálculos orbitais, alertas, simulação, documentação matemática |
-| `edge-computing/` | Edge Computing & Computer Systems | Paulo Marcotti | Arduino/Wokwi, sensores, simulação IoT |
-| `fullstack-web/` | Front-end Design + Web Development | Julia Assunção Silva | Dashboard HTML/CSS/JS com backend JavaScript |
-| `design/` | Software & Total Experience + Storytelling | Gabriela R. S
+| [`python/`](./python) | Computational Thinking with Python + Differentiated Problem Solving | Francisco Elanio Bezerra / Fernando Pizzo Ribeiro | Cálculos orbitais, simulação, alertas, integração Space-Track, documentação matemática |
+| [`edge-computing/`](./edge-computing) | Edge Computing & Computer Systems | Paulo Marcotti | Arduino/Wokwi, sensores LDR, LCD, LEDs, buzzer, simulação IoT |
+| [`fullstack-web/`](./fullstack-web) | Front-end Design + Web Development | Julia Assunção Silva | Dashboard HTML/CSS/JS com temas dinâmicos e slideshow |
 
 ## 🛠️ Tecnologias
 
-- **Python** — Cálculo orbital, lógica de alerta, análise de risco
+- **Python** — Cálculo orbital, simulação, alertas, integração com API Space-Track
 - **Arduino/C++** — Sensores edge computing (Wokwi)
-- **HTML/CSS** — Dashboard de monitoramento
-- **Node.js / JavaScript** — Backend do dashboard web
-
+- **HTML/CSS** — Dashboard de monitoramento com múltiplos temas
+- **JavaScript** — Interatividade, slideshow, alternância de temas
 
 ## 🏆 Contexto Acadêmico
 
@@ -86,7 +92,7 @@ Projeto desenvolvido para a **Global Solution 2026** da FIAP — avaliação int
 - [INPE](https://www.gov.br/inpe/pt-br) — Instituto Nacional de Pesquisas Espaciais
 - [Agência Espacial Brasileira](https://www.gov.br/aeb/pt-br) — Programas espaciais nacionais
 
-## 👥 Equipe
+## 👥 Equipe — Turma 1ESPZ
 
 | Nome | RM |
 |------|-----|
