@@ -41,25 +41,22 @@ Operadoras de satélite, agências espaciais (NASA, ESA, AEB) e toda infraestrut
 
 ## 📁 Estrutura do Projeto
 
-Cada pasta corresponde a uma disciplina do curso de **Engenharia de Software — FIAP**:
+## 📁 Estrutura do Projeto
 
-| Pasta | Disciplina | Professor(a) | Conteúdo |
+| Pasta | Disciplinas | Professor(a) | Conteúdo |
 |-------|-----------|--------------|----------|
-| `computational-thinking/` | Computational Thinking with Python | Francisco Elanio Bezerra | Lógica principal, cálculos orbitais, alertas |
+| `python/` | Computational Thinking + Problem Solving | Francisco Elanio Bezerra / Fernando Pizzo Ribeiro | Cálculos orbitais, alertas, simulação, documentação matemática |
 | `edge-computing/` | Edge Computing & Computer Systems | Paulo Marcotti | Arduino/Wokwi, sensores, simulação IoT |
-| `frontend/` | Front-end Design | Julia Assunção Silva | Interface HTML/CSS do dashboard |
-| `webdev/` | Web Development | Julia Assunção Silva | JavaScript, interatividade, fetch de dados |
-| `software-design/` | Software & Total Experience Design | Gabriela Rodrigues Salomão | UX/UI, wireframes, personas, user flows |
-| `problem-solving/` | Differentiated Problem Solving | Fernando Pizzo Ribeiro | Design Thinking, Matriz CSD, MoSCoW |
-| `storytelling/` | Storytelling e Inspiração Empreendedora | Patrícia Mari Matsuda | Pitch, roteiro de apresentação |
-| `docs/` | Documentação | — | Arquitetura, referências, diagramas |
+| `fullstack-web/` | Front-end Design + Web Development | Julia Assunção Silva | Dashboard HTML/CSS/JS com backend JavaScript |
+| `design/` | Software & Total Experience + Storytelling | Gabriela R. S
 
 ## 🛠️ Tecnologias
 
 - **Python** — Cálculo orbital, lógica de alerta, análise de risco
 - **Arduino/C++** — Sensores edge computing (Wokwi)
 - **HTML/CSS** — Dashboard de monitoramento
-- **JavaScript** — Interatividade, visualização de dados em tempo real
+- **Node.js / JavaScript** — Backend do dashboard web
+
 
 ## 🏆 Contexto Acadêmico
 
