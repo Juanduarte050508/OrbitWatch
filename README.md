@@ -31,12 +31,14 @@ Operadoras de satélite, agências espaciais (NASA, ESA, AEB) e toda infraestrut
 
 ## 🏗️ Arquitetura do Sistema
 
+```
 [Dados de Detritos] → [Cálculo Orbital (Python)] → [Análise de Risco]
                                                           ↓
 [Dashboard (Frontend)] ← [Alertas em Tempo Real] ← [Motor de Colisão]
                                                           ↓
                                                    [Sensores Edge (Arduino)]
-                                                   
+```
+
 ## 📁 Estrutura do Projeto
 
 Cada pasta corresponde a uma disciplina do curso de **Engenharia de Software — FIAP**:
@@ -87,7 +89,7 @@ Projeto desenvolvido para a **Global Solution 2026** da FIAP — avaliação int
 - [INPE](https://www.gov.br/inpe/pt-br) — Instituto Nacional de Pesquisas Espaciais
 - [Agência Espacial Brasileira](https://www.gov.br/aeb/pt-br) — Programas espaciais nacionais
 
-## 👥 Equipe — Turma 1ESPZ
+## 👥 Equipe
 
 | Nome | RM |
 |------|-----|
